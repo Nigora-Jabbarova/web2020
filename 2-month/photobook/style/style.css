@@ -1,0 +1,422 @@
+@charset "UTF-8";
+@import 'normal.css';
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+html{
+    font-size: 10px;
+}
+.main{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    min-height: 600px;
+    background: url(../img/MainBanner.jpg) no-repeat center;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    background-color: #ffffff;
+}
+.header-overlay{
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 20rem;
+}
+.left{
+    width: 28rem;
+    display: flex;
+    justify-content: space-around;
+}
+.m-menu-link{
+    display: block;
+    font-size: 3rem;
+    color: black;
+    width: 3rem;
+}
+.logo{
+    margin-top: 1rem;
+}
+.right{
+    width: 28rem;
+    display: flex;
+    justify-content: space-around;
+}
+.phone{
+    border: 1px solid #ffd200;
+    padding: 1rem 4rem;
+    border-radius: 0.8rem;
+    background-color: #ffd200;
+}
+.phone span{
+    font-size: 1.3rem;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main-text h1{
+    margin:0;
+    margin-top: 7rem;
+    font-size: 8rem;
+    text-decoration: none;
+}
+.main-text h4{
+    font-size: 3rem;
+    margin-top: 0;
+}
+.make {
+    border-radius: 0.8rem;
+    padding: 1.5rem 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background: none;
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 10rem;    
+}
+.option{
+    border: 5px solid #ffd200;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+    margin-right: 14rem;
+    
+}
+
+.option::after{
+    position: absolute;
+    content: " ";
+    border: 2px dashed #ffd200;
+    width: 14rem;
+    left: 11rem;
+}
+.line{
+    margin-right: 20    rem;
+}
+.first-element{
+    margin-left: 8rem;
+}
+.line::after{
+    border: none;
+}
+.option span{
+    font-size: 1.6rem;
+    margin: 0 4.5rem;
+    position: absolute;
+    top: 12.5rem;
+}
+.advantage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3f0e7;
+}
+.advantage h1{
+    font-size: 4rem;
+    font-weight: 200;
+}
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    width: 90%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    width: 30rem;
+}
+.info img{
+    width: 25rem;
+}
+.social-media img{
+    border-radius: 50%;
+}
+.info h3{
+    width: 18rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: unset;
+    line-height: 1.4;
+    margin-bottom: 0;
+    margin-block-end: auto;
+}
+.info p{
+    font-size: 1.3rem;
+    line-height: 1.1;
+}
+.photobook-btn{
+    background-color: #e11a27;
+    margin: 8rem;
+    padding: 1.5rem 4rem;
+    border: 1px solid #e11a27;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0.8rem;
+}
+.price-tags{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+    
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    padding: 2rem;
+}
+.price-tag{
+    position: relative;
+    width: 29.7rem;
+    height: 42.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 6px solid #ffd200;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    z-index: 222;
+}
+.top-cover{
+    position: absolute;
+    width: 29rem;
+    background-color: #ffd200;
+    left: 0;
+    top: 0;
+    padding: 1.3rem 1rem;
+}
+.top-cover h2{
+    font-size: 2.5rem;
+    font-family: "PF Agora Sans Pro" sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    left: 4.5rem;
+} 
+.price-tag h2{
+    font-size: 2.5rem;
+    font-family: "PF Agora Sans Pro" sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    left: 4.5rem;
+}
+.down-cover{
+    position: absolute;
+    width: 29rem;
+    background-color: #ffd200;
+    left: 0;
+    top: 37rem;
+    z-index: 223;
+
+}
+.down-cover h4{
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 1rem auto;
+}
+.price-tag h3{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+.menu-list {
+    list-style-image: url(../logo/list-logo.png);
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding: 1rem;
+
+}
+.menu-list li{
+    text-align: left;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 2.2;
+}
+.price-tag span{
+    font-size: 5rem;
+    font-family: "PF Agora Sans Pro";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+}
+.testimonial{
+    background: url(../img/background.jpg) no-repeat center;
+    background-size: cover;
+    padding: 4.5rem 18rem;
+    padding-right: 31rem;
+}
+.recomendation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
+}
+.photo-name{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.photo-name > div{
+    margin-left: 3rem;
+    font-family: "PF Agora Sans Pro Light" sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.recomendation > .make{
+    align-self: center;
+    margin-top: 11.5rem;
+}
+.name{
+    font-size: 3.5rem;
+    font-variant: small-caps;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+.job{
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+.recomendation > p{
+    font-size: 1.5rem;
+    line-height: 1.2;    
+}
+.second-text{
+    margin-top: 0;
+}
+.next-arrow{
+    align-self: flex-end;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4.5rem 18rem;;
+}
+.terms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.term{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ffd200;
+    border-radius: 0.5rem;
+    margin-left: 5rem;
+    width: 31.5rem;
+    height: 30.5rem;
+}
+
+.term :last-child{
+    margin-right: none;
+}
+.term h2{
+    text-align: center;
+    font-variant: small-caps;
+}
+.text{
+    background-color: #f7f0e6;
+    border-top: 2px solid white;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    padding: 7rem 3rem;
+}
+.p{
+    padding-top: 0;
+    padding-bottom: 9rem;
+}
+.red{
+    color: #e11a27;
+    font-weight: bold;
+}
+.footer{
+    background-color: #ffd200;
+    padding: 2rem 20rem;
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about ul{
+    border-top: 1px solid black;
+    margin-right: 7.5rem;
+    padding: 2.5rem 3.5rem;
+    padding-left: 0;
+}
+.about li{
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    
+}
+.socials{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    border-top: 1px solid black;
+    padding: 2rem 4rem;
+    padding-left: 0;
+}
+.social-links{
+    color: black;
+}
+.designed-by{
+    margin-top: 2rem;
+    border: 0.5px solid black;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+.footer span{
+    font-size: 1.4rem;
+    margin-bottom: 3
+    rem;
+}
+

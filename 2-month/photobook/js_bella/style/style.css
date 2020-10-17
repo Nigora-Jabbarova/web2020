@@ -1,0 +1,413 @@
+@charset "UTF-8";
+@import 'normal.css';
+body{
+   margin:0 auto;
+   width: 1300px;
+}
+.panel, .flex1, .flex2{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.flex1, .flex2{
+   margin-top: 28px;
+}
+.flex2 a {
+   font-size: 16px;
+   font-family: "PF Agora Sans Pro Light";
+   color: rgb( 33, 33, 33 );
+   text-transform: uppercase;
+   border-radius: 10px;
+   background-color: rgb( 255, 210, 0 );
+   padding: 10px 40px;
+   text-decoration: none;
+   margin-right: 55px;
+}
+.flex2 a>span{
+   border-bottom-style: dotted;
+}
+.icon {
+   width: 162px;
+   height: 19px;
+   margin-left: 55px;
+}
+.bar1, .bar2, .bar3 {
+   width: 25px;
+   height: 2px;
+   background-color: black;
+   margin: 6px 0;
+ }
+ .change .bar1 {
+   -webkit-transform: rotate(-45deg) translate(-5px, 5px) ;
+   transform: rotate(-45deg) translate(-5px, 5px) ;
+ }
+ 
+ /* Fade out the second bar */
+ .change .bar2 {
+   opacity: 0;
+ }
+ 
+ /* Rotate last bar */
+ .change .bar3 {
+   -webkit-transform: rotate(45deg) translate(-5px, -5px) ;
+   transform: rotate(45deg) translate(-5px, -5px) ;
+ }
+.main_banner{
+   margin: 28px auto;
+   text-align: center;
+   background: url(../img/bcg1.jpg) center center no-repeat;
+   background-size: cover;
+
+}
+h2 {
+   font-size: 45pt;
+   font-family: "PF Agora Sans Pro XThin";
+   color: rgb( 0, 0, 0 );
+   font-variant: small-caps;
+   font-weight: normal;
+   margin: 0;
+   padding-top: 50px;
+   text-align: center;
+}
+.main_banner>p{
+   font-size: 17px;
+   font-family: "PF Agora Sans Pro Light";
+   color: rgb( 0, 0, 0 );
+   margin-top: 10px;
+   font-weight: bold;   
+}
+button>p{
+   font-size: 20pt;
+   font-family: "PF Agora Sans Pro Thin";
+   color: rgb( 33, 33, 33 );
+   text-transform: uppercase;
+   margin: auto auto;
+   font-weight: bold;
+}
+button{
+   border: 1px solid rgba(0, 0, 0, 0.993);
+   border-radius: 10px;
+   height: 60px;
+   width: 370px;
+   margin-top: 60px;
+   margin-bottom: 265px; 
+   background-color: rgba(0,0,0,0);
+}
+.icons>p{
+   font-size: 17px;
+   font-family: "PF Agora Sans Pro Light";
+   color: rgb( 0, 0, 0 );
+   text-align: center;
+   font-weight: bold;
+}
+.step{
+   margin-top: 55px;
+   display:flex;
+   justify-content: center;
+   background-color: #fff;
+}
+.icon1:first-child, .icon2:first-child, .icon3:first-child, .icon4:first-child{
+   padding: 35px;
+   border: 3px solid #ffd200;
+   border-radius: 50%;
+}
+.icons{
+   display: grid;
+   justify-content: center;
+   grid-template-columns: auto auto;
+}
+.dashes{
+   align-self: center;
+}
+.icon2{
+   margin: 0;
+}
+.icons4{
+   display: block;
+}
+.advantage{
+   margin-top:100px;
+   text-align: center;
+   background-color: #f3f0e7;
+}
+.socials{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.social{
+   display: grid;
+   grid-template-columns: auto;
+   justify-items: center;
+   margin: 60px;
+}
+h3{
+   font-size: 17px;
+   font-family: "PF Agora Sans Pro Light";
+   color: rgb( 0, 0, 0 );
+   text-align: center;
+   font-weight: bold;
+}
+.social>p{
+   font-size: 12px;
+   font-family: "PF Agora Sans Pro Light";
+   color: rgb( 0, 0, 0 );
+   text-align: center;
+   font-weight: bold;   
+}
+.red{
+   background-color: #e11a27;
+   margin-top: 95px;
+   margin-bottom: 73px;
+}
+.red>p{
+   color: #fff;
+   font-weight: normal;
+}
+
+.price{
+   font-size: 40pt;
+   font-family: "PF Agora Sans Pro Light";
+   color: rgb( 0, 0, 0 );
+}
+.flexboxes{
+   display: flex;
+   justify-content: center;
+   margin-top: 60px;
+   
+}
+.flexbox{
+   margin-left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
+   margin-left: 70px;
+   border: 3px solid #ffd200;
+   border-radius: 5px;
+}
+h4{
+   font-size: 25pt;
+   font-family: "PF Agora Sans Pro Regular";
+   color: rgb( 0, 0, 0 );
+   font-variant: small-caps;
+   font-weight: normal;
+   align-self: center;
+   background-color: #ffd200;
+   width: 100%;
+   padding: 17px 0;
+   margin: 0;
+   text-align: center;
+}
+.fetures{
+   margin-top: 10px;
+   margin-left: 10px;
+   align-self: start;
+}
+.feature{
+   display: flex;
+   align-items: center;
+   padding: 0;
+}
+.feature>p{
+   margin: 5px 10px;
+   font-size: 15px;
+   font-family: "PF Agora Sans Pro Regular";
+   color: rgb( 0, 0, 0 );
+}
+.price{
+   text-align: center;
+   margin-bottom: 21px;
+}
+.make{
+   font-size: 19.303px;
+   font-family: "PF Agora Sans Pro Thin";
+   color: rgb( 0, 0, 0 );
+   text-align: center;
+   background-color: #ffd200;
+   margin: 0;
+   padding: 17px 40px;
+}
+.classicbook{
+   position: relative;
+}
+.bestseller {
+   position: absolute;
+   font-size: 20px;
+   font-family: "PF Agora Sans Pro Bold";
+   color: rgb( 225, 26, 39 );
+   font-weight: bold;
+   font-variant: small-caps;
+   text-align: center;
+   top: -50px;
+   padding: 2px 15px;
+   background: #ffd200;
+   background: linear-gradient(135deg, transparent 15px, #ffd200 0) top left,   
+   linear-gradient(-135deg, transparent 15px, #ffd200 0) top right,   
+   linear-gradient(-135deg, transparent 7px, #ffd200 0) bottom right,   
+   linear-gradient(135deg, transparent 7px, #ffd200 0) bottom left;
+   background-size: 50% 50%;
+   background-repeat: no-repeat;
+}
+.testimonials{
+   background: url(../img/bcg2.jpg) top center no-repeat;
+   block-size: cover;
+   width: 100%;
+   margin-top: 115px;
+}
+.testimonils_flex
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   width: 50%;
+   margin-left: 50px;
+}
+.person{
+   display: grid;
+   grid-template-columns: auto auto;
+   align-items: center;
+}
+.person>div{
+   margin-left: 20px;
+}
+.person{
+   margin: 30px;
+}
+
+.name {
+   font-size: 35px;
+   font-family: "PF Agora Sans Pro Light";
+   color: rgb( 0, 0, 0 );
+   font-variant: small-caps;
+   text-align: center;
+   font-weight: bold;
+   margin-bottom: 15px;
+}
+.job{
+   font-size: 15px;
+   font-family: "PF Agora Sans Pro Light";
+   color: rgb( 0, 0, 0 );
+   font-weight: bold;
+}
+.next{
+   text-decoration: none;
+   font-size: 12px;
+   font-family: "PF Agora Sans Pro Thin";
+   color: rgb( 0, 0, 0 );
+   font-weight: bold;
+   display: inline-block;
+   text-align: center;
+   margin-left: 10px;
+}
+.but{
+   align-self: flex-end;
+}
+.next_but{
+   align-self: center;
+   margin: 100px 0;
+}
+.payments_terms{
+   text-align: center;
+}
+.payments {
+   margin-top: 85px;
+   display: grid;
+   grid-template-columns:  380px 380px 380px;
+   gap: 40px;
+   text-align: start;
+}
+.payment>h4{
+   border-bottom: 5px solid #fff;
+   border-radius: 15px 15px 0 0;
+   
+}
+.about{
+   background-color: #f7f0e6;
+   padding: 25px;
+   border-radius: 0 0 15px 15px;
+}
+.about p {
+   font-size: 18px;
+   font-family: "PF Agora Sans Pro XTBold";
+}
+.about_payment{
+   margin: 10px 0;
+}
+.methods p{
+   margin: 5px;
+}
+.methods{
+   margin-bottom: 35px;
+}
+.methods p::before{
+      content: '';
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: #000;
+      display: inline-block;
+      margin: 2px 10px;
+}
+.red_p{
+   color: #e11a27;
+   margin-bottom: 30px;
+}
+footer{
+   text-align: center;
+   background-color: #ffd200;
+}
+footer>p{
+   font-size: 15px;
+   font-family: "PF Agora Sans Pro";
+}
+
+.footerboxes{
+ display: grid;
+ justify-content: space-between;
+ grid-template-columns: 80% 20%;
+}
+.boxes{
+   display: grid;
+   grid-template-columns: 25% 25% 25%;
+}
+.box1::before,.box3::before,.box2::before,.boxend::before{
+   content: " ";
+   width: 100px;
+   height: 1px;
+   background-color: #000;
+   display: inline-block;
+   margin-bottom: 20px;
+}
+
+.box1, .box2, .box3{
+   margin-top: 40px;
+   text-align: left;
+   gap: 80px;
+}
+.box1{
+   margin-left: 10px;
+}
+.boxes a{
+   text-decoration: none;
+   color: black;
+   display: block;
+   font-size: 20px;
+   font-family: "PF Agora Sans Pro";
+   font-weight: bold;
+}
+.boxend{
+   margin-top: 40px;
+   text-align: left;
+}
+.images3{
+   display: flex;
+   flex-direction: row;
+}
+.first,.second{
+   margin-right: 10px;
+}
+.end{
+   margin-top: 50px;
+}

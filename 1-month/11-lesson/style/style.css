@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import 'normal.css';
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    color: floralwhite;
+    font-family: Arial, sans-serif;
+}
+.banner{
+    background: url("../img/background1.jpg") no-repeat center top /cover;
+    padding-bottom: 230px;
+}
+nav{
+    padding-top:20px;
+}
+nav > img{
+    width: 60px;
+}
+menu{
+    float: right;
+}
+menu li{
+    display: inline-block;
+    margin-left: 50px;
+}
+menu a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+menu > li:hover{
+    border-bottom: 3px solid indigo;
+    padding-bottom: 10px;
+}
+menu a:hover{
+    color: indigo;
+    cursor: pointer;
+}
+header{
+    margin-top: 170px;
+    text-align: center;
+}
+header::after{
+content: '';
+width: 60px;
+height: 3px;
+background:floralwhite ;
+display: block;
+margin: 0 auto 60px;
+}
+h1{
+    text-transform: uppercase;
+    line-height: 140px;
+    font-size: 150px;
+    font-weight: normal;
+}
+h1 span{
+    color: indigo;
+}
+h2{
+    font-size: 72px;
+    font-weight: normal;
+    margin-top: 50px;
+}
+.navbotton{
+    widows: 160px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.navbotton a{
+    border: 3px solid floralwhite;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: floralwhite;
+    text-decoration: none;
+}
+.navbotton :hover a{
+    background-color: #ffffff ;
+    color:indigo;
+}
+h3{
+    font-size: 48px;
+    font-weight: normal;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+
+}
+h4{
+   font-size: 24px;
+   font-weight: normal; 
+   color:  #333333;
+   font-family: Arial, sans-serif;
+}
+.title{
+    text-align: center;
+    padding-top: 85px;
+}
+.title ::after{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background:red ;
+    display: block;
+    margin: 0 auto 60px;
+}
+.aboutus p{
+    text-align: center;
+    color: #999999;
+    widows: 970px;
+    margin: 45px auto 95px;
+    font-size: 15px;
+    line-height: 24px;
+}
+.aboutus_img{
+    margin: 0 auto 85px;
+    text-align: center;
+}
+.aboutus_img img{
+    margin-right: 25px;
+    width: 375px;
+}
+.aboutus_img :last-child{
+    margin-right: 0;
+}
+.services_items{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 60px auto 0;
+}
+.service_item{
+    display: inline-block;
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+.item_icon{
+    display: inline-block;
+    margin-right: 20px;
+}
+.item_title{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    width: 280px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top ;
+}
+.item_title p{
+    margin: 0;
+}
+h5{
+    font-style: 14px;
+    color: #333333;
+    margin: 0;
+}

@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import 'normal.css';
+#cat{
+    width: 64px;
+    height: 64px;
+}
+#block{
+    width: 200px;
+    height: 200px;
+    background-color: indigo;
+    border: 1px solid black;
+    /*border-top-left-radius: ;
+    border-top-right-radius: ;
+    border-bottom-left-radius: ;
+    border-bottom-right-radius: ;*/
+}
+.wrapper{
+
+}
+.generator{
+
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.value{
+    width: 45px;
+}
+span{
+    display: block;
+}
+.smth{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.outputColor{
+    width: 70px;
+}
+.label{
+    display: inline-block;
+}
+.output{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.own-generator{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.color{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+@media (max-width: 700px){
+    .own-generator{
+        width: 90%;
+    }
+}
+
+#area{
+    width: 157px;
+    height: 157px;
+    background-color: indigo;
+}
+.cell{
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    font-size: 26px;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+}
+.gameblock:hover{
+    background-color: #f1f1f1;
+}
+.curplayer{
+    width: 140px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.stat{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.stat table{
+    border-collapse: collapse;
+}
+.stat table, .stat th, .stat td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

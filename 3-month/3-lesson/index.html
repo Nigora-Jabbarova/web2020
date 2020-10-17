@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="own-generator">
+            <div id="block">
+            </div>
+            <div class="generator">
+                <div class="output">
+                    All corner <input name="" id="outputcode_all" class="value"></input>
+                </div>
+                <input type="range" id="all-corners" min="0" max="100" step="1" value="0">
+                
+                <div class="output">
+                    Top-left corner<input name="" id="outputcode-tl" class="value"></input>
+                </div>
+                <input type="range" id="top-left-radius" min="0" max="100" step="1" value="0">
+                
+                <div class="output">
+                    Top-right corner<input name="" id="outputcode-tr" class="value"></input>
+                </div>
+                <input type="range" id="top-right-radius" min="0" max="100" step="1" value="0">
+                
+                <div class="output">
+                    Bottom-left corner<input name="" id="outputcode-bl" class="value"></input>
+                </div>
+                <input type="range" id="bottom-left-radius" min="0" max="100" step="1" value="0">
+                
+                <div class="output">
+                    Bottom-right corner<input name="" id="outputcode-br" class="value"></input>
+                </div>
+                <input type="range" id="bottom-right-radius" min="0" max="100" step="1" value="0">
+
+                <div class="output">
+                    Border width<input type="text" id="output-width" class="value">
+                </div>
+                <input type="range" id="border-width" min="0" max="100" step="1" value="0">
+                
+                <label for="color" class="label">Color:</label>
+                <select name="" id="color" class="outputColor">
+                    <option value="black">black</option>
+                    <option value="yellow">yellow</option>
+                    <option value="pink">pink</option>
+                    <option value="red">red</option>
+                </select>
+                <!--
+                    <form action="" class="smth">
+                    <div>
+                        <label for="box-color">color:</label>
+                        <input type="color" id="box-color" value="#ff0000">
+                    </div>
+                    <input type="text" class="outputColor" value="red">
+                </form>
+
+                -->
+                Gradient color:<input type="color" id="Color" value="pink">
+                <input type="text" class="outputColor">
+
+                <label for="style">Style:</label>
+                <select name="" id="style">
+                    <option value="solid">solid</option>
+                    <option value="dashed">dashed</option>
+                    <option value="dotted">dotted</option>
+                    <option value="double">double</option>
+                </select>
+
+            </div>   
+
+        
+
+    </div>
+    </div>
+    
+
+
+
+
+
+
+
+<div class="content">
+
+    <div class="curplayer">
+        <span>сейчас ходит: <span id="curplyr"></span></span>
+    </div>
+
+    
+    <div id="area"></div>
+
+    <div class="stat">
+        <table>
+            <th calspan = "2">статистика</th>
+            <tr>
+                <td>x</td>
+                <td><span id="sx">0</span></td>
+            </tr>
+            <tr>
+                <td>o</td>
+                <td><span id="so">0</span></td>
+            </tr>
+            <tr>
+                <td>ничья</td>
+                <td><span id="sd">0</span></td>
+            </tr>
+        </table>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="js/script.js" rel="script" type="text/javascript"></script>
+</body>
+</html>

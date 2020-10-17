@@ -1,0 +1,16 @@
+1-dars WEb sahifa va uni ishlashi haqida tushuncha,1-HTML fayl  teg,attributr bilan tanishuv va amalda qo'llash,matnlarni o'zgartirish
+2-dars Rasm,audio,video, jadval va spiskalar bilan ishlash  HTML5 teglari 
+3-dars Forma haqida tushuncha va section option textaria 
+4-dars CSS ga kirish,ulash  @charset @import va ilk css o'zgarishlar,seleketor,svoysvo va znacheniya with,heig,max
+5-dars backround va border va border-radius; padding margin 
+6-dars box model normalizatise css  Pozitsalash z-index,overflow, text-overflow,white-space,word-wrap,visibliy opasity 
+7-dars display  psevda class va psevda elementlar line-height , cursor va  float 
+8-dars text-decoration,list-style,padding-inline-start,text-transform,text-align,text-indent,font va @font-face;
+9-dars box-shadow,text-shadow,double-shadow,transform , transition  
+10-dars gradient,animation,prefixserlar 
+11-dars sayt qilamiz 
+12-dars @media zaproslar
+
+
+
+

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import "normal.css";
+/*span{
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+    text-decoration-line: line-through;
+    cursor:pointer; 
+    text-decoration: line style color; ----три выше-указанных тега в одном---
+}
+span:hover{
+    text-decoration-style: none;
+
+menu li{
+    display: ;
+}
+menu li a{
+    text-decoration: none;
+    color: rosybrown;
+}
+menu li a:hover{
+text-decoration: dashed underline yellow;
+}
+body{
+    
+}*/
+body{
+    background-color: rgba(26, 22, 30, 0.925);
+}
+#menu{
+    border: 2px solid cornflowerblue;
+    width: 150px;
+    list-style-type: none;
+    border-radius: 5%;
+    margin:15px;
+}
+.menu >li {
+    border-bottom: 1px dashed black;
+    padding-inline-start:10px;
+    text-decoration: none;
+    background-color: cornflowerblue;
+}
+.menu >li:nth-child(4){
+    border-bottom: none;
+}
+.menu li a:hover{
+    color: white;
+    
+    cursor: pointer;
+}
+div a {
+    text-decoration: none;
+}
+.menu li a:active{
+
+}
+div .submenu{
+    border-bottom: 1px dashed black;
+    padding-inline-start:10px;
+    text-decoration: none;
+    background-color: black;
+    display: none;
+    overflow: hidden;
+}

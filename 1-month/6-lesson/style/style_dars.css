@@ -1,0 +1,62 @@
+
+@import 'normalize_css.css';
+body{
+  /*margin-top: ;
+  margin-bottom: ;
+  margin-right: ;
+  margin: 0;
+  margin-left: 50px;
+border: 2px solid green;*/
+}
+
+
+button{
+    box-sizing: border-box;
+    text-align: center;
+    width: 70px;
+    height:30px;
+    padding: 10px;
+    border: 5px solid silver;
+}
+.row{
+    width: 100px;
+    height: 50px;
+    border: 1px solid red;
+    position: absolute;
+    top: -10px;
+    /****position berilganda left, rifh,bottom,top ishlatiladi****/  
+}
+.row2{
+  width: 200px;
+  height: 200px;
+  border: 2px solid yellowgreen;
+  position: relative;
+  margin: 10px;
+  
+  }
+ .child{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    position: fixed;
+    background-color: yellowgreen;
+    bottom: 0;
+    right: 20px; 
+    z-index: 2;
+    }
+    .child2{
+      width: 50px;
+      height: 50px;
+      border: 1px solid red;
+      bottom: 0;
+      right: 20px; 
+      position: fixed;
+      z-index:3;
+    }
+.overflow{
+    width: 50px;
+    height: 50px;
+    border: 2px solid greenyellow;
+    background-color: greenyellow;
+    overflow: hidden;
+}

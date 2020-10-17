@@ -1,0 +1,88 @@
+/*.development_team{
+width: 1024px;
+background-color: antiquewhite;
+}
+img{
+    width: 252px;
+    display: inline-block;
+}
+#first{
+    height: 200px;
+}
+.second{
+    height: 230px;
+} **********vazifa.html ga tegishli********** */
+@charset ("UTF-8");
+label{
+    min-width: 150px;
+    max-width: 250;
+    height: 30px;
+    display: inline-block;
+}
+/*body{
+    background-color: rgba(255, 100, 100, 0.1);
+}
+div{
+ 
+    background-position: left top, right bottom;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid yellow; 
+    background-attachment: fixed, scroll;
+    background: url('../img/computer.jpg') no-repeat right top scroll ;
+
+}
+input{
+  /*  border-bottom-color: green;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-top: 5px dotted red
+    border: 2px solid green;
+    border-radius: 50%;
+
+}*/
+/*body{
+    width: 1024px;
+    display: inline-block
+}*/
+.form1{
+    background-image: url(../img/form_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 504px;
+    display: inline-block;
+}
+.form2{
+    background-image: url(../img/form_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 504px;
+    display: inline-block;
+}
+textarea{ 
+    border: 2px  solid black;
+    resize: none;
+}
+table{
+   
+     border: 3px dotted yellow;
+}
+.about img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    size: cover;
+    border: 2px solid black;
+    border-radius:100px;
+    box-shadow: 0 0 7px #666;
+
+}
+.about{
+    display: inline-block;
+    border: 2px dashed yellow ;
+    background-image: url(../img/form_background.jpg);
+    background-repeat: no-repeat;
+}
+
+

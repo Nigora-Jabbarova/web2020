@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import "normal.css";
+/********строчное меню*********/
+#nav li{
+    float: left;
+    position:relative;
+    list-style: none;
+    background: indigo;
+    width:190px;
+}
+ 
+#nav a{
+    text-decoration: none;
+    display:block;
+    padding:35px 65px;
+    color: #ffffff;
+}
+ #nav li:hover>a{
+    background: blueviolet;
+}
+#nav ul{
+    visibility: hidden;
+    padding:0;
+    position:absolute;
+}
+#nav li:hover>ul{
+    visibility: visible;
+    position:relative;
+}
+#nav ul a{
+    padding: 18.5px 65px;
+}
+#nav ul li:hover{
+    background: blueviolet;
+}
+#nav li:first-child:hover>ul{
+left: 0;
+}
+#nav>li{
+    border-right:1px solid rgb(142, 82, 199);
+}
+#nav>li:last-child{
+    border-right:none;
+}
+ #nav>li ul li{
+    border-right:1px left rgb(142, 82, 199);
+    border-right:1px solid rgb(142, 82, 199);
+ }
+#nav li:first-child ul li, #nav li:first-child ul{
+     border-left:none;
+ }
+/******блочное меню******/
+
+ .leftmenu{
+   
+     padding-top: 300px;
+     width: 300px;
+     border-radius: 8px;
+     overflow: hidden;
+ }
+ a{
+    text-decoration: none;
+ }
+  .item{
+     /* border-top: 1px solid indigo;*/
+      overflow: hidden;
+  }
+ .btn{
+     display:block;
+     padding:16px 20px;
+     background: indigo;
+     color: #ffffff;
+     position: relative;
+ }
+ li{
+     list-style: none;
+ }
+.sub_menu{
+    background: rgb(39, 11, 51);
+    overflow: hidden;
+    max-height: 0;
+}
+.sub_menu a{
+    display:block;
+    padding:16px 20px;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 4px 0;
+    position: relative; 
+}
+.sub_menu a:before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: rgb(142, 82, 199);
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+ .sub_menu a:hover:before{
+     opacity: 1;
+ }
+ .item:target .sub_menu{
+     max-height: 10em;
+ }
+/******9-lesson******/
+ #box{
+     width:200px;
+     height: 200px;
+     background: plum;
+     margin:150px 0 100px 250px; 
+     /*transform: skew(45deg);*/
+     box-shadow: 20px 20px 20px rgb(117, 32, 117);
+ }
+ #box:hover{
+     display: block;
+     transform: rotate(90deg) scale(2,4);
+     transition-property: transform;
+     transition-duration: 1s;
+     transition-timing-function: linear;
+     /*transform: */
+    
+ }
+ /*.rainbow{
+     background: rgb(117, 32, 117);
+ margin-top: 50px;
+ margin-bottom: 100px;
+ width: 500px;
+ height:150px;
+ box-shadow: 500px 50px 20px yellow;
+ border-radius: 20px;
+ }*/
+ #box:hover{
+     transform: translateX(300px);
+ }
+  
+ 

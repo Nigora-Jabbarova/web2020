@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="htpp://tatuff/index.php" method="POST">
+    <label for="first_name"><b>ism:</b></label><input maxlength="20" autofocus id="first_name" required="required" name="firstname" type="" placeholder="bu yerga ismizi yozing"> <br> <!--pole dlya vvoda-->
+     <!--<b>familiya: </b> <input placeholder="familiya"> -->
+     <b>Email:</b><input type="email" placeholder="E-mail" name="pochta"><br>
+     <b>parol</b> <input type="password" name="parol"><br>
+     <b>yoshiz:</b><input type="number" name="age" value="20"><br>
+     <b>Telefon:</b><input type="tel" name="tel"><br>
+     <b>Rasmiz:</b><input type="file" name="rasm"><br>
+     <b>Rang:</b><input type="color" name="color" value=""><br>
+     <input type="text" name="IP" value="123.123133" hidden="hidden" ><br>
+     <label for="male"><!--<b>vibor iz dvuh "jinsi"</b>-->Erkak</label><input type="radio" name="jinsi" value="male" id="male">    
+     <label for="female">ayol</label> <input id="female" type="radio" name="jinsi" value="female"><br>
+     <!-- label используется чтобы связать два объекта "в нашем случае erkak"-->
+     <input type="submit" name="submit" value="yuborish"><!--проверка наличия данных --> <br>
+     <textarea name="" id="" cols="30" rows="10"></textarea><br>
+     <input type="checkbox" name="remeber"> eslab qolish<br> 
+     <input type="checkbox" name="subjects" value="english">english
+     <input type="checkbox" name="subjects" value="math">math
+
+     <button>yuborish</button>
+
+    </form>
+</body>
+</html>

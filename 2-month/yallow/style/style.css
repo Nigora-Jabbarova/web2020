@@ -1,0 +1,264 @@
+@charset "UTF-8";
+@import 'normal.css';
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.main{
+    background: url(../img/background.jpg) no-repeat center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header .menu{
+    background-color: #f5c506;
+    padding: 1rem;    
+    margin-top: 4rem;
+    position: relative;
+    z-index: 1000;
+}
+.shadow1{
+    width: 48rem;
+    height: 4.2rem;
+    position: absolute;
+    background-color: #f5c506;
+    opacity: 0.271;
+    right: 0.8rem;
+    bottom: 0.5rem;
+    z-index: 1;
+}
+.shadow2{
+    width: 48rem;
+    height: 4.2rem;
+    position: absolute;
+    background-color: #f5c506;
+    opacity: 0.271;
+    right: 1.8rem;
+    bottom: 1.3rem;
+    z-index: 0;
+}
+.header ul li{
+    display: inline;
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-family: "Segoe WP";
+    text-align: center;
+    list-style: none;
+}
+.about-us, .services{
+    border-right: 1px solid rgb(155, 125, 8);
+}
+.header ul img{
+    padding-right: 1rem;
+}
+.header ul a{
+    margin: 0 auto;
+    padding-top: 1rem;
+    color: #b99403;
+}
+.main-text{
+    width: 80%;
+    margin-bottom: 10rem;
+    position: relative;
+    margin: 0 auto;
+}
+.h1{
+    position: absolute;
+    left: 55rem;
+    bottom: 11rem;
+    width: 50%;
+    
+}
+.h1 h1{
+    margin: 0;
+    text-align: center;
+    font-size: 6.3rem;
+    font-family: 'Asap', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white;
+}  
+.options-wrapper{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.option h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Segoe WP";
+    font-size: 2.7rem;
+    font-weight: 400;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.download{
+    margin-top: 2rem;
+}
+.info-wrapper{
+    background: url(../img/rectangular-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.info h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3.75rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.main-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*position: relative;*/
+
+}
+.info-text{
+    position: relative;
+}
+.info-text p{
+    padding: 1.8rem;
+    margin: 0;
+    font-family: "Segoe WP Light";
+    font-weight: 400;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.856);
+    line-height: 1.308;
+    background-color: #ec9e03;
+
+}
+.info img{
+/*    position: absolute;
+    left: 50rem;*/
+    margin-right: 2rem;
+}
+.twitter{
+    text-align: center;
+    font-size: 20rem;
+    text-decoration: none;
+    color: black;
+    background-color: #ec9e03;
+}
+.date{
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.1rem;
+    font-family: 'Segoe UI Regular';
+    left: 0; 
+    top: 23.4rem;
+    background-color: #ddb101;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.date h1{
+    margin: 0;
+    color: white;
+}
+.date span{
+    color: #b26529;
+}
+.line{
+    border: 1px solid white;
+    width: 95%;
+    height: 2rem;
+    margin: 10rem auto 0;
+    z-index: 25;
+    background-color: white;
+    opacity: 0.345;
+    border-radius: 10px;
+}
+.devices-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #4c4c4c;
+}
+.devices-wrapper h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3.75rem;
+    color: #f5c506;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+.devices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 6rem;
+}
+.devices-wrapper ul{    
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2rem;
+    font-family: "Open Sans";
+    line-height: 1.2;
+    width: 34.5rem;
+    text-align: left;
+    color: rgb(169, 169, 167);
+    z-index: 20;
+    list-style-image: url(../logo/yeelow-disk.png);
+    list-style-position: outside;
+} 
+.devices-wrapper li{
+    padding-left: 1rem;
+}
+.footer-wrapper{
+    box-shadow: 0 0 10px black;
+    background-color: #4c4c4c;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.footer p{
+    font-family: 'Open Sans Regular';
+    font-size: 1.7rem;
+    color: white;
+}
+
+
+
+.media-header{
+    display: none;
+}
